@@ -18,6 +18,10 @@ c) In the input options, uncheck "First row is column names" <br>
 d) In "Generate Output" click on "CSV to JSON Array" <br>
 e) Copy JSON array and add to INPUT.json under apify_storage/key_value_stores/default/INPUT.json <br>
 
+# choose the correct main.js file
+
+The main.js currently is for TVOkids.com, if crawling TVO.org, rename main-tvoorg.js to main.js
+
 # run apify
 
 apify run -p
