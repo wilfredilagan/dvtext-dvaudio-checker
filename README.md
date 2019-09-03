@@ -21,3 +21,7 @@ e) Copy JSON array and add to INPUT.json under apify_storage/key_value_stores/de
 # run apify
 
 apify run -p
+
+# Output
+
+OUTPUT.html in apify_storage/key_value_stores/default/ is the videos that do not have DVText or DVAudio.
